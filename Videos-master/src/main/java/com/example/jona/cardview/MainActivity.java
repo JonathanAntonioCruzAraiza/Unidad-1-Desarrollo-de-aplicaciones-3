@@ -1,4 +1,4 @@
-package com.example.karla.cardview;
+package com.example.jona.cardview;
 
 import android.support.v4.widget.TextViewCompat;
 import android.support.v7.app.AppCompatActivity;

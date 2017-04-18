@@ -1,8 +1,6 @@
-package com.example.karla.recyclerview.models;
+package com.example.jona.recyclerview.models;
 
-/**
- * Created by karla on 17/04/2017.
- */
+
 
 public class Movie {
     public String name;

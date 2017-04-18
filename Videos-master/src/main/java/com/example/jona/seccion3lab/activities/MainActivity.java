@@ -1,4 +1,4 @@
-package com.example.karla.seccion3lab.activities;
+package com.example.jona.seccion3lab.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 
-import com.example.karla.seccion3lab.R;
-import com.example.karla.seccion3lab.adapters.FruitAdapter;
-import com.example.karla.seccion3lab.models.Fruit;
+import com.example.jona.seccion3lab.R;
+import com.example.jona.seccion3lab.adapters.FruitAdapter;
+import com.example.jona.seccion3lab.models.Fruit;
 
 import java.util.ArrayList;
 import java.util.List;

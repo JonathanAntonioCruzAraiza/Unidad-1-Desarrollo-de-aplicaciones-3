@@ -1,4 +1,4 @@
-package com.example.karla.recyclerview.adapters;
+package com.example.jona.recyclerview.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,15 +8,12 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.karla.recyclerview.R;
-import com.example.karla.recyclerview.models.Movie;
+import com.example.jona.recyclerview.R;
+import com.example.jona.recyclerview.models.Movie;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by karla on 15/04/2017.
- */
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 

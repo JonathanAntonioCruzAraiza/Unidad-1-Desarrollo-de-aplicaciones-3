@@ -1,4 +1,4 @@
-package com.example.karla.recyclerview.activities;
+package com.example.jona.recyclerview.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.karla.recyclerview.adapters.MyAdapter;
-import com.example.karla.recyclerview.R;
-import com.example.karla.recyclerview.models.Movie;
+import com.example.jona.recyclerview.adapters.MyAdapter;
+import com.example.jona.recyclerview.R;
+import com.example.jona.recyclerview.models.Movie;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
         //miLayoutManager = new GridLayoutManager(this, 2);
         //miLayoutManager = new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL);
+
 
         miAdapter = new MyAdapter(movies, R.layout.recycler_view_item, new MyAdapter.OnItemClickListener() {
             @Override

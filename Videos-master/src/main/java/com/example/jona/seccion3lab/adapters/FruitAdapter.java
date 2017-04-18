@@ -1,4 +1,7 @@
-package com.example.karla.seccion3lab.adapters;
+
+
+
+package com.example.jona.seccion3lab.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -19,16 +22,11 @@ import android.widget.TextView;
 
 
 
-import com.example.karla.seccion3lab.R;
-import com.example.karla.seccion3lab.models.Fruit;
+import com.example.jona.seccion3lab.R;
+import com.example.jona.seccion3lab.models.Fruit;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
-
-/**
- * Created by karla on 17/04/2017.
- */
-
 public class FruitAdapter extends RecyclerView.Adapter<FruitAdapter.ViewHolder> {
 
     private List<Fruit> fruits;

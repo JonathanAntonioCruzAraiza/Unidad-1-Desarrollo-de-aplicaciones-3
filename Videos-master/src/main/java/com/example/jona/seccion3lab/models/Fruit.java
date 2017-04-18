@@ -1,8 +1,5 @@
-package com.example.karla.seccion3lab.models;
+package com.example.jona.seccion3lab.models;
 
-/**
- * Created by karla on 17/04/2017.
- */
 
 public class Fruit {
 
